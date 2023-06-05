@@ -6,6 +6,7 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import config from 'temp/config';
 
+
 /**
  * Factory responsible for creating a DictionaryService instance
  */
