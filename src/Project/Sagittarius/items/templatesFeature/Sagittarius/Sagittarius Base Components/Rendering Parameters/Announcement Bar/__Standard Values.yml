@@ -1,0 +1,27 @@
+﻿---
+ID: "521d4afd-69ca-475a-88db-cde9bf918628"
+Parent: "24a8a2dd-6447-4237-b137-963837a5431d"
+Template: "24a8a2dd-6447-4237-b137-963837a5431d"
+Path: /sitecore/templates/Feature/Sagittarius/Sagittarius Base Components/Rendering Parameters/Announcement Bar/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9633a5e-47ce-4173-a4d9-fa125e2e6194"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230702T070448Z

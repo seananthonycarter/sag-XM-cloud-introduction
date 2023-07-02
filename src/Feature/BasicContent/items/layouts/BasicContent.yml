@@ -3,6 +3,10 @@ ID: "d377fb5c-efcf-4a89-ac65-77dadf04edd7"
 Parent: "da61ad50-8fdb-4252-a68f-b4470b1c9fe8"
 Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
 Path: /sitecore/layout/Renderings/Feature/BasicContent
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
 Languages:
 - Language: en
   Versions:
@@ -13,11 +17,11 @@ Languages:
       Value: 20200625T231045Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3c373335-47b3-475d-a1d6-d7294cc215dc"
+      Value: "63d6d27f-56c0-4ec3-a431-320d81d178e3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Admin
+        sitecore\UXounhYtFQ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20200625T231045Z
+      Value: 20230702T111747Z

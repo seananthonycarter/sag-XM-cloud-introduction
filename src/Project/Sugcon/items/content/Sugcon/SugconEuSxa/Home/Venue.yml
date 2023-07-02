@@ -13,7 +13,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{77F9C25F-9855-463E-A668-38ACF28BD8DB}" />
+    <image mediaid="{7054B735-F6ED-45ED-A0E7-D9431A7165C9}" />
 Languages:
 - Language: en
   Versions:
@@ -309,23 +309,23 @@ Languages:
       Value: SUGCON, Europe, Sitecore, User Group, Conference, Venue, City, Experience, Networking
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "26f21406-1bbb-4cd8-ae26-cd7a89a92f99"
+      Value: "174b6f42-649d-46fa-9c5c-9555bbf62cfa"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
     - ID: "afb023d3-4d65-4023-bd85-5f7383e32a08"
       Hint: MetaDescription
-      Value: Discover the stunning venue for SUGCON Europe 2023. Explore the city, connect with attendees, and get ready for an unforgettable experience.
+      Value: Discover the stunning venue for SUGCON Europe 2023. Explore the city, connect with attendees, and get ready for an unforgettable experience......
     - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
       Hint: Title
-      Value: Venue
+      Value: Venue2
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\1ISa5gYrpM
+        sitecore\UXounhYtFQ
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230201T213555Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T212950Z
+      Value: 20230605T220858Z

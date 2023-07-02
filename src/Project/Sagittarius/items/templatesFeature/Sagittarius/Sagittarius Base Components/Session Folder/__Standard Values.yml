@@ -1,0 +1,33 @@
+﻿---
+ID: "63c3cd3c-0369-45df-9cce-0ccd7f975b58"
+Parent: "93db72a3-9b89-4d08-bdb2-520217bf9423"
+Template: "93db72a3-9b89-4d08-bdb2-520217bf9423"
+Path: /sitecore/templates/Feature/Sagittarius/Sagittarius Base Components/Session Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {27AD4BEE-7462-49F0-9D33-82BA20C37E8D}
+    {C7C26656-1C65-45FF-A15F-F58212FAF1BB}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1268abc6-cc0e-49ab-9177-5034cd66ee85"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230702T070450Z

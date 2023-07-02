@@ -1,0 +1,33 @@
+﻿---
+ID: "0c18b37e-0b23-4c8c-84ad-9c4536700b6d"
+Parent: "8b395ba6-80a5-4a0b-ad8a-8b51ebeb2d79"
+Template: "8b395ba6-80a5-4a0b-ad8a-8b51ebeb2d79"
+Path: /sitecore/templates/Feature/Sagittarius/Sagittarius Base Components/Videos/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {64ACEDE4-1711-4DF4-AB7C-EFB822A8FE7C}
+    {C69AC796-371D-462F-BF59-6A3E363D0EFE}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bc53116-a395-448f-9731-fb10f29a35e4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230702T070451Z

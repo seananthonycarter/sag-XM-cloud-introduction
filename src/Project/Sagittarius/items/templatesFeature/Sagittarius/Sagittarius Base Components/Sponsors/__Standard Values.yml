@@ -1,0 +1,33 @@
+﻿---
+ID: "1d929a3d-30df-44ad-a531-938ab80ac6e1"
+Parent: "f54b45e2-c881-40bd-b480-745c82c67e3b"
+Template: "f54b45e2-c881-40bd-b480-745c82c67e3b"
+Path: /sitecore/templates/Feature/Sagittarius/Sagittarius Base Components/Sponsors/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {DBF996A5-21C9-49D6-BBB4-DCE6D4700576}
+    {3693294A-781B-4816-BF98-6D024D0D5A18}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9bc08f90-99a5-4a16-9eb5-8ec880d7012e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230702T070450Z

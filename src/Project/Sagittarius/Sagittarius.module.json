@@ -1,0 +1,67 @@
+{
+  "namespace": "Project.Sagittarius",
+  "items": {
+    "includes": [
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Project/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "components",
+        "path": "/sitecore/layout/Renderings/Feature/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "componentsProject",
+        "path": "/sitecore/layout/Renderings/Project/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Project/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templatesFeature",
+        "path": "/sitecore/templates/Feature/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "media",
+        "path": "/sitecore/Media Library/Project/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "branchesFeature",
+        "path": "/sitecore/templates/Branches/Feature/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "branchesProject",
+        "path": "/sitecore/templates/Branches/Project/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "modules",
+        "path": "/sitecore/system/Settings/Feature/Sagittarius",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "apikeySagittariusEu",
+        "path": "/sitecore/system/Settings/Services/API Keys/SagittariusEuSxa",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "content",
+        "path": "/sitecore/content/Sagittarius",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+﻿---
+ID: "4312a1ae-2621-4e8a-a18e-233c72f53336"
+Parent: "d7ccfcb9-fba5-4629-b67f-461d0e314ef4"
+Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
+Path: /sitecore/templates/Branches/Feature/Sagittarius/Sagittarius Base Components/Default Announcement Bar Variant/$name
+SharedFields:
+- ID: "087c0553-9162-41f5-98d3-87eb0d80edbb"
+  Hint: Compatible Renderings
+  Value: "{BDD0D9AF-C678-46B7-8135-ACADCBEB8A7D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160818T065035Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "787280f8-5f7d-48ac-86b3-9bfbb3128123"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sebastian.tecsi@gmail.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221207T203911Z
