@@ -43,8 +43,8 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <Head>
         <title>
           {fields?.Title?.value
-            ? 'SUGCON Europe - ' + fields.Title.value.toString()
-            : 'SUGCON Europe'}
+            ? 'Sagittarius Demo - ' + fields.Title.value.toString()
+            : 'Sagittarius Demo'}
         </title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         {/* Meta Tags */}
