@@ -41,9 +41,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
     <>
       <Scripts />
       <Head>
-        <title>
-          SC Demo
-        </title>
+        <title>SC Demo</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         {/* Meta Tags */}
         {fields?.MetaDescription?.value ? (
