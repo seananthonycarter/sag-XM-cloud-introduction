@@ -42,7 +42,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <Scripts />
       <Head>
         <title>
-        {fields?.Title?.value
+          {fields?.Title?.value
             ? 'SUGCON Europe - ' + fields.Title.value.toString()
             : 'SUGCON Europe'}
         </title>
