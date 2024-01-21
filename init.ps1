@@ -90,6 +90,7 @@ $Host_Suffix = "xmcloudcm.localhost"
 $CM_Host = $Host_Suffix
 $MVP_Host = "mvp.$Host_Suffix"
 $SUGCON_EU_HOST = "sugconeu.$Host_Suffix"
+$SAGITTARIUS_EU_HOST = "sagittariuseu.$Host_Suffix"
 $SUGCON_ANZ_HOST = "sugconanz.$Host_Suffix"
 $SUGCON_INDIA_HOST = "sugconindia.$Host_Suffix"
 
@@ -132,6 +133,7 @@ Write-Host "Adding Windows hosts file entries." -ForegroundColor Green
 Add-HostsEntry $CM_Host
 Add-HostsEntry $MVP_Host
 Add-HostsEntry $SUGCON_EU_HOST
+Add-HostsEntry $SAGITTARIUS_EU_HOST
 Add-HostsEntry $SUGCON_ANZ_HOST
 Add-HostsEntry $SUGCON_INDIA_HOST
 
@@ -149,6 +151,7 @@ $scjssconfig = @{
 ConvertTo-Json -InputObject $scjssconfig | Out-File -FilePath "src\project\Sugcon\SugconAnzSxa\scjssconfig.json"
 ConvertTo-Json -InputObject $scjssconfig | Out-File -FilePath "src\project\Sugcon\SugconEuSxa\scjssconfig.json"
 ConvertTo-Json -InputObject $scjssconfig | Out-File -FilePath "src\project\Sugcon\SugconIndiaSxa\scjssconfig.json"
+ConvertTo-Json -InputObject $scjssconfig | Out-File -FilePath "src\project\Sagittarius\SagittariusEuSxa\scjssconfig.json"
 
 ################################
 # Generate JSS_EDITING_SECRET
@@ -186,6 +189,9 @@ if ($InitEnv) {
     Set-EnvFileVariable "SUCGON_INDIA_CDP_CLIENT_KEY" -Value $SUCGON_INDIA_CDP_CLIENT_KEY
     Set-EnvFileVariable "SUCGON_INDIA_CDP_TARGET_URL" -Value $SUCGON_INDIA_CDP_TARGET_URL
     Set-EnvFileVariable "SUCGON_INDIA_CDP_POINTOFSALE" -Value $SUCGON_INDIA_CDP_POINTOFSALE
+    Set-EnvFileVariable "SAGITTARIUS_EU_CDP_CLIENT_KEY" -Value $SAGITTARIUS_EU_CDP_CLIENT_KEY
+    Set-EnvFileVariable "SAGITTARIUS_EU_CDP_TARGET_URL" -Value $SAGITTARIUS_EU_CDP_TARGET_URL
+    Set-EnvFileVariable "SAGITTARIUS_EU_CDP_POINTOFSALE" -Value $SAGITTARIUS_EU_CDP_POINTOFSALE
 }
 Write-Host "Finished populating .env file." -ForegroundColor Green
 

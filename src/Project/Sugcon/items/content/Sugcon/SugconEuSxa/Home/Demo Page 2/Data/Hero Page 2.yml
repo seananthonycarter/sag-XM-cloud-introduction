@@ -1,0 +1,46 @@
+﻿---
+ID: "f4f60d8a-7c79-436a-b861-a69599314d5a"
+Parent: "204fd2a5-d7cd-4c60-a679-429c0a8f2bc1"
+Template: "a9668aad-7e76-49a5-978a-bff6bf8a8a6f"
+Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Demo Page 2/Data/Hero Page 2
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220607T175752Z
+    - ID: "5d11b89b-88a9-4fbd-9da9-9c1c3882b46a"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2873B071-2360-438D-833B-B73AFF7EBAE3}" />
+    - ID: "76951572-38f3-442a-aab8-41c02e6a2bdc"
+      Hint: Description
+      Value: |
+        <p>This is text for page 2 and <a href="~/link.aspx?_id=999E56C2C97F4283AA78D0B91D879ED1&amp;_z=z">link</a>&nbsp;to page 4.</p>
+        <p>&nbsp;</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fe9d529-bb6a-4113-b320-796607122bf8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HXjuRYo3SA
+    - ID: "c1413fde-0dd2-4fc9-842d-5ccc7c753564"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{D91AA161-155A-4E23-AAE8-E8CFFD13CD35}" />
+    - ID: "d08fa491-162f-44ad-85c0-af9269b9195c"
+      Hint: Text
+      Value: This is page 2
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230822T052001Z
+    - ID: "db8d95de-6511-487f-acc0-31f25fa76e52"
+      Hint: Label
+      Value: THIS IS LABEL

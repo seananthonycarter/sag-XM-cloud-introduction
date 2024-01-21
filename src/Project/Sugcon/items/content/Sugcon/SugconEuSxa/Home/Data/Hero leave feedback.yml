@@ -3,6 +3,10 @@ ID: "e79f2ded-d95a-49c3-a1a6-60e63cd7832f"
 Parent: "414924c3-1bd1-478a-b5e7-f4ef41087297"
 Template: "a9668aad-7e76-49a5-978a-bff6bf8a8a6f"
 Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Data/Hero leave feedback
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -17,27 +21,27 @@ Languages:
     - ID: "5d11b89b-88a9-4fbd-9da9-9c1c3882b46a"
       Hint: Link
       Value: |
-        <link text="Send us your feedback!" linktype="external" url="https://sitecoremvp.msnd24.com/tracking/lc/76172254-8a64-438b-a476-1af874a46485/9e2fe7e7-cc9b-4777-a1d7-947af9974393/e90f8b81-a410-411a-9678-534d38f12fb6/" anchor="" target="_blank" />
+        <link text="Get in touch!" linktype="external" url="https://sagittarius.agency/contact/" anchor="" target="_blank" />
     - ID: "76951572-38f3-442a-aab8-41c02e6a2bdc"
       Hint: Description
-      Value: "<p>Organizing Committee and Sitecore would like to thank all SUGCON Europe 2023 attendees! We hope that you found the conference to be informative, helpful, inspirational, and fun.&nbsp;To make the conference even better next time we would like to ask you to provide us with some feedback.</p>"
+      Value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Can you read Latin? Donec bibendum velit non pharetra egestas. Curabitur gravida pretium mi eu auctor. Phasellus metus neque, aliquam quis lacus et, porttitor imperdiet lorem. Suspendisse sed porta est, et tincidunt ligula. Vestibulum sollicitudin eu est sed ullamcorper. Quisque nec cursus augue, placerat imperdiet metus. Nam turpis erat, pulvinar vel eros quis, aliquet congue quam. Donec porttitor metus ligula, ut dignissim quam volutpat id. Vivamus dapibus, odio non ultrices interdum, ante erat interdum sem, et finibus diam magna vitae dolor.</p>"
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c30c7a93-4d9b-4205-9e2a-3bd495dcbb8d"
+      Value: "ee802f8f-104c-4f4d-8b12-7fc82f2268af"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\a.vershalovich@brimit.com
+        sitecore\7WsvGKpGn8
     - ID: "c1413fde-0dd2-4fc9-842d-5ccc7c753564"
       Hint: BackgroundImage
       Value: |
         <image mediaid="c54777fb-784f-492a-a57d-7bfc2afec8c1" ></image>
     - ID: "d08fa491-162f-44ad-85c0-af9269b9195c"
       Hint: Text
-      Value: "Thank you for attending!"
+      Value: XM Cloud demo site
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230403T134300Z
+      Value: 20240117T082636Z
     - ID: "db8d95de-6511-487f-acc0-31f25fa76e52"
       Hint: Label
-      Value: SUGCON EUROPE
+      Value: GET IN TOUCH

@@ -13,7 +13,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{1E9090E4-5188-4BE5-BCDF-F8FCF0C7E8F0}" />
+    <image mediaid="{5841F938-2A59-4D38-945B-AE214213FC68}" />
 Languages:
 - Language: en
   Versions:
@@ -113,7 +113,7 @@ Languages:
       Value: SUGCON, Europe, Sitecore, User Group, Conference, Sessions, Trends, Best Practices, Insights
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ce989a3-3c1d-4431-9f23-a67d545cc2ef"
+      Value: "ad0fc510-f241-4068-8494-f151cc08bf9c"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
@@ -126,10 +126,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\7WsvGKpGn8
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230201T214530Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T213820Z
+      Value: 20240119T123552Z

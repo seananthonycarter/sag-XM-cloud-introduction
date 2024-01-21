@@ -9,10 +9,10 @@ SharedFields:
   Value: "{A42272AA-3CD4-4943-AAC8-0142DB3ABFFA}"
 - ID: "8e0dd914-9afb-4d45-bf8b-7ff5d6e5337e"
   Hint: HostName
-  Value: xmcloudcm.localhost
+  Value: *
 - ID: "9eaf6dc9-b811-4cda-9edd-9697faba628a"
   Hint: POS
-  Value: *=SugconEuSxa
+  Value: *=SugconEuSxa&en=SugconEu
 - ID: "b59e43ab-84da-49f3-87a1-d2fcf648365b"
   Hint: Scheme
   Value: https
@@ -49,11 +49,11 @@ Languages:
         sitecore\xmc-e2e-admin@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d5c28e1b-7ef1-4d2f-bd8c-44191799e761"
+      Value: "94494576-6bd9-4d62-92ab-4f6a03c8a3fe"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\1ISa5gYrpM
+        sitecore\UXounhYtFQ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T213607Z
+      Value: 20230629T155257Z

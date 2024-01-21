@@ -6,7 +6,7 @@ Path: /sitecore/content/Sugcon/SugconEuSxa/Data
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 1400
+  Value: 300
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
@@ -32,11 +32,11 @@ Languages:
         sitecore\xmc-e2e-admin@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "481874e4-41e9-4962-80b1-238bd5bb1be7"
+      Value: "0681a7c8-2aba-495f-8bba-7a63f5e3bfa1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sebw@sitecore.net
+        sitecore\UXounhYtFQ
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221206T104822Z
+      Value: 20230606T145905Z

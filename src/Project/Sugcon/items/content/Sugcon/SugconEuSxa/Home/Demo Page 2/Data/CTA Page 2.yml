@@ -1,0 +1,90 @@
+﻿---
+ID: "5ec53bc4-ebd4-4da9-b332-94218c3b0b7b"
+Parent: "204fd2a5-d7cd-4c60-a679-429c0a8f2bc1"
+Template: "2a05bfc6-1eea-4013-9daf-9d079e3fd255"
+Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Demo Page 2/Data/CTA Page 2
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0168f4ed-ee6c-4962-9153-94f1fb972c55"
+      Hint: Image
+      Value: |
+        <image mediaid="{225E1ACF-57A3-4F0D-8789-C899C6C145F7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221202T091550Z
+    - ID: "2bd32ceb-9f35-41d4-a255-81dbf1f80e6b"
+      Hint: Headline
+      Value: Contact Organizers
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sebw@sitecore.net
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sebw@sitecore.net
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3802ae5f-ca9f-4e08-8508-e271665ec69c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sebw@sitecore.net
+    - ID: "d4c32718-a2cb-48c5-9769-14d20450d6f7"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="SUGCON Sitecore slack channel" url="https://sitecorechat.slack.com/archives/C0C973QJ0" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221202T091550Z
+    - ID: "fdc6957b-c9fa-46ad-b03c-254c12c4c47a"
+      Hint: Text
+      Value: "<p>Email: enquiries@sugcon.events</p>"
+  - Version: 2
+    Fields:
+    - ID: "0168f4ed-ee6c-4962-9153-94f1fb972c55"
+      Hint: Image
+      Value: |
+        <image mediaid="{523EBEF9-3EC8-412C-BB90-1B93317D7FE3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221202T091557Z
+    - ID: "2bd32ceb-9f35-41d4-a255-81dbf1f80e6b"
+      Hint: Headline
+      Value: "CTA Component 1 - Go to Checkout"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sebw@sitecore.net
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sebw@sitecore.net
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec4ee50d-3db4-49f7-bfd3-1d50fef296d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HXjuRYo3SA
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221202T091557Z
+    - ID: "d4c32718-a2cb-48c5-9769-14d20450d6f7"
+      Hint: Link
+      Value: |
+        <link linktype="external" text="SUGCON Sitecore slack channel" url="https://sitecorechat.slack.com/archives/C0C973QJ0" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230822T043832Z
+    - ID: "fdc6957b-c9fa-46ad-b03c-254c12c4c47a"
+      Hint: Text
+      Value: |
+        <p><a href="~/link.aspx?_id=2873B0712360438D833BB73AFF7EBAE3&amp;_z=z">Checkout</a></p>

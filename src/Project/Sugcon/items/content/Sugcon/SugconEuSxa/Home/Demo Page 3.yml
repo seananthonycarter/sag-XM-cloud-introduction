@@ -1,0 +1,109 @@
+﻿---
+ID: "506d1344-3a6f-4088-8541-402c11f24b60"
+Parent: "a42272aa-3cd4-4943-aac8-0142db3abffa"
+Template: "36cad6cf-d418-43ca-bc57-656e44069116"
+Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Demo Page 3
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C9F3B171-4914-4EF0-AC62-D48364969DEF}" />
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{8F6A77B1-E9CA-4FEB-94CC-9B64F4F993F6}"
+          p:before="*"
+          s:ds="local:/Data/Hero Page 3"
+          s:id="{1980CE42-9455-48E5-B4D0-DDB59C9B28D4}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+        <r
+          uid="{0F3B74EB-C1DB-425F-AC1F-26E8F1DD3BB0}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/CTA Page 3"
+          s:id="{96127B34-218D-4D4E-9203-65B7E24A42E6}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="headless-main"
+          s:ccb="Clear on publish" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8F6A77B1-E9CA-4FEB-94CC-9B64F4F993F6}">
+              <rls>
+                <ruleset>
+                  <rule
+                    uid="{DDE6D107-B3EE-42A3-BC14-1B6F566CE1B4}"
+                    s:name="Tuesday">
+                    <conditions>
+                      <condition
+                        uid="8A104D486A8A48439E02292155E2A74C"
+                        s:id="{C18B0900-ED61-47A8-AEF0-AD6D133512C8}"
+                        s:DaysList="{139A76F8-583B-4760-BA34-3AB0421044B6}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="96269D2D1CB341CB9BA2A7DA087737AE"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{F4F60D8A-7C79-436A-B861-A69599314D5A}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="DFAE402862AF454493EA51D8C0396CF9"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230606T150535Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Demo Page 3
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ceccaca-6867-4ea3-87a9-9472223106c7"
+    - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
+      Hint: Title
+      Value: Demo Page 3
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\nk@relevant-edge.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230822T145416Z

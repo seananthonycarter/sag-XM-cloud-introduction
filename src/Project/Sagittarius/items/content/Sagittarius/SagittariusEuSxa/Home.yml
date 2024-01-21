@@ -7,7 +7,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{4A163687-3DDA-4AA6-A510-DBD1431AD62E}" />
+    <image mediaid="{3D8C497C-E253-4A74-9B92-3AAAE75B483D}" />
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
@@ -201,7 +201,7 @@ Languages:
       Value: SUGCON, Europe, Sitecore, User Group, Conference, Technology, Web Development, Digital Experience, CMS
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c29817e9-f183-4f59-9e63-9604962217b5"
+      Value: "8ba37956-4ae3-46bc-bac8-2ea1ab5c9b25"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
@@ -210,17 +210,17 @@ Languages:
       Value: Join us at SUGCON Europe 2023, the premier European conference for Sitecore professionals. Learn from experts, network with peers, and explore the latest in Sitecore technology.
     - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
       Hint: Title
-      Value: Home
+      Value: Sag Home
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\1ISa5gYrpM
+        sitecore\7WsvGKpGn8
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230119T075727Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T212938Z
+      Value: 20240119T163137Z
     - ID: "ea87c3c6-eecc-48cb-8ecc-166e68091857"
       Hint: MetaCustomAttributes
       Value: "google-site-verification=3bCfwhf5EuEEFO1Qr_qJSKMGvnjNZ-59gyWJMKZTr24"

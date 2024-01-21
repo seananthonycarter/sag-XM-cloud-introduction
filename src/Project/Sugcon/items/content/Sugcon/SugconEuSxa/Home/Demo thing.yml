@@ -1,0 +1,55 @@
+﻿---
+ID: "2873b071-2360-438d-833b-b73aff7ebae3"
+Parent: "a42272aa-3cd4-4943-aac8-0142db3abffa"
+Template: "36cad6cf-d418-43ca-bc57-656e44069116"
+Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Demo thing
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BEB9BB3F-9DB8-4B38-9BEB-966DB310F018}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230615T111334Z
+    - ID: "26c47756-a47c-4234-89af-d4660ece7ca4"
+      Hint: OgDescription
+      Value: I am what they say I am. I am Sitecore
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Demo thing
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "68d3b246-7b9a-41a7-a2c1-4940ecf0d394"
+      Hint: OgTitle
+      Value: And so the journey begins.....
+    - ID: "74f7afe1-a0e2-4a1d-8ba9-e52666806c9f"
+      Hint: OgImage
+      Value: |
+        <image mediaid="{F1807576-3FF6-4D0C-AEE8-58A80592592D}" alt="IMG_9665" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c03a707-272e-41b4-9806-d86785322314"
+    - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
+      Hint: Title
+      Value: Demo thing
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EoZfc11kOg
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230726T164642Z

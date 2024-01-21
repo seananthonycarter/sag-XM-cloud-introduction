@@ -1,0 +1,79 @@
+﻿---
+ID: "60986504-e746-40fd-bd60-e2b409a2a356"
+Parent: "a42272aa-3cd4-4943-aac8-0142db3abffa"
+Template: "36cad6cf-d418-43ca-bc57-656e44069116"
+Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Demo page 1
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{0145A036-95B9-4A9C-BA96-7FE47EB99C65}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{F054BCFC-0375-459E-8225-0964C3AE41B8}"
+              p:before="*"
+              s:ds="{638852D1-2025-4787-ABCB-727FE3A664BF}"
+              s:id="{1980CE42-9455-48E5-B4D0-DDB59C9B28D4}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{46660467-22C0-4D28-86A0-2456A1CF3DD7}"
+              p:after="*[1=2]"
+              s:ds="{7CB32AEF-12D3-431A-AA59-439C0406201F}"
+              s:id="{71100E1F-3D11-48AB-8C2F-E56FBFA66476}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230606T145428Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Demo page 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\UXounhYtFQ
+    - ID: "60985bff-7e5d-40a5-8209-de015a43e6e4"
+      Hint: Content
+      Value: Here is a line of content for demo page 1.
+    - ID: "68d3b246-7b9a-41a7-a2c1-4940ecf0d394"
+      Hint: OgTitle
+      Value: Test2
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "595c1793-7a18-4a5c-a4c0-3a8cae3e23bc"
+    - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
+      Hint: Title
+      Value: Demo page 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HXjuRYo3SA
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230818T063924Z

@@ -4,10 +4,13 @@ Parent: "30704fd3-0a27-4669-9609-791500474245"
 Template: "36cad6cf-d418-43ca-bc57-656e44069116"
 Path: /sitecore/content/Sugcon/SugconEuSxa/Home
 SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{4A163687-3DDA-4AA6-A510-DBD1431AD62E}" />
+    <image mediaid="{281CD14E-BABC-4732-81B9-265FBAEECA02}" />
 - ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
   Hint: __Security
   Value: |
@@ -32,147 +35,64 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{E63B7A60-E941-49C1-BA86-2325ABE1D271}"
-              p:before="*"
-              s:ds="local:/Data/CTA"
-              s:id="{96127B34-218D-4D4E-9203-65B7E24A42E6}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFEDA0026-E7BB-4969-9712-3E4629CB3EFE%7D&amp;Styles&amp;DynamicPlaceholderId=12"
-              s:ph="/headless-main/container-3/container-11"
-              s:ccb="Clear on publish" />
-            <r
-              uid="{DD864E2B-7270-492A-B4BE-C102E7A7C867}"
-              p:after="r[@uid='{E63B7A60-E941-49C1-BA86-2325ABE1D271}']"
-              s:ds="local:/Data/Text 1"
-              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7BC3767F66-03BE-4587-B22C-C0D28B45C319%7D&amp;FieldNames=%7BE3174201-325E-4362-AF41-A70A6A95716C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
-              s:ph="/headless-main/container-3"
-              s:ccb="Clear on publish" />
-            <r
-              uid="{E6340255-8A5C-498C-828A-41BE2303D3A0}"
-              p:after="r[@uid='{DD864E2B-7270-492A-B4BE-C102E7A7C867}']"
-              s:ds="local:/Data/CTA-Malaga"
-              s:id="{96127B34-218D-4D4E-9203-65B7E24A42E6}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFEDA0026-E7BB-4969-9712-3E4629CB3EFE%7D&amp;Styles&amp;DynamicPlaceholderId=8"
-              s:ph="/headless-main/container-3"
-              s:ccb="Clear on publish" />
-            <r
-              uid="{65316A28-F177-4A6C-A66B-B62D6E7EBADB}"
-              p:after="r[@uid='{E6340255-8A5C-498C-828A-41BE2303D3A0}']"
-              s:id="{01BB6244-4E0F-4A9B-9352-1F2C64982655}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;DynamicPlaceholderId=11"
-              s:ph="/headless-main/container-3" />
-            <r
               uid="{1CA790DC-0D14-4E5D-BB4F-FBDB024933C5}"
-              p:after="r[@uid='{65316A28-F177-4A6C-A66B-B62D6E7EBADB}']"
+              p:before="*"
               s:ds="local:/Data/Hero 1"
               s:id="{1980CE42-9455-48E5-B4D0-DDB59C9B28D4}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAC36768D-1DCE-40EF-BB0F-E6C10EC14522%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
-              s:ph="headless-main" />
+              s:pt="personalizationTest"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAC36768D-1DCE-40EF-BB0F-E6C10EC14522%7D&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=5"
+              s:ph="headless-main">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{9631C2BC-BB7C-4F41-A96C-9F1A3CDD1373}"
+                    s:name="774aab6db4f64d7e995d00422a5b2f9f">
+                    <conditions>
+                      <condition
+                        uid="98E5C7D12CF5493EBBF5288743044844"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="774aab6db4f64d7e995d00422a5b2f9f" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{38C3989B-9FEE-4E24-B24C-D2313240D327}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="ec229cfb-d929-4f0c-8348-68bb70c7af50" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="958D08ACD46842F9AAC88392103C11A7"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{F23FB863-3828-4D7E-929F-E2C827A07021}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{1CA790DC-0D14-4E5D-BB4F-FBDB024933C5}']"
+              s:ds="local:/Data/Promo 1"
               s:id="{01BB6244-4E0F-4A9B-9352-1F2C64982655}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7B51488297-F4D0-40ED-9D8B-9689BD64D9B2%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7B51488297-F4D0-40ED-9D8B-9689BD64D9B2%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=3"
               s:ph="headless-main" />
-          </d>
-        </r>
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20220519T091039Z
-    - ID: "26c47756-a47c-4234-89af-d4660ece7ca4"
-      Hint: OgDescription
-      Value: 
-    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
-      Hint: NavigationTitle
-      Value: Home
-    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
-      Hint: __Owner
-      Value: |
-        sitecore\xmc-e2e-admin@sitecore.com
-    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
-      Hint: __Created by
-      Value: |
-        sitecore\xmc-e2e-admin@sitecore.com
-    - ID: "60985bff-7e5d-40a5-8209-de015a43e6e4"
-      Hint: Content
-      Value: 
-    - ID: "68d3b246-7b9a-41a7-a2c1-4940ecf0d394"
-      Hint: OgTitle
-      Value: Sugcon EU OgTitle
-    - ID: "74f7afe1-a0e2-4a1d-8ba9-e52666806c9f"
-      Hint: OgImage
-      Value: |
-        <image mediaid="{514E9CC6-AF44-4F32-A5E2-7F3A30E8FED9}" alt="Sugcon Europe" height="" width="" hspace="" vspace="" />
-    - ID: "79f9d33c-f64e-49e7-b80a-9b26e43a409e"
-      Hint: MetaKeywords
-      Value: Sugcon EU, Sitecore, Usergroup, Conference, Europe
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "e873a33d-bba0-4aac-9330-663eef8343b9"
-    - ID: "924cb302-5abd-4e49-941f-18626daed08d"
-      Hint: OgType
-      Value: article
-    - ID: "afb023d3-4d65-4023-bd85-5f7383e32a08"
-      Hint: MetaDescription
-      Value: 
-    - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
-      Hint: Title
-      Value: Home
-    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
-      Hint: __Updated by
-      Value: |
-        sitecore\a.vershalovich@brimit.com
-    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
-      Hint: __Updated
-      Value: 20230119T075715Z
-  - Version: 2
-    Fields:
-    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
-      Hint: __Lock
-      Value: |
-        <r owner="sitecore\tarnok.tamas@allwin.hu" date="20230417T142028Z" />
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{DD864E2B-7270-492A-B4BE-C102E7A7C867}"
-              p:before="*"
-              s:ds="local:/Data/Text 1"
-              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7BC3767F66-03BE-4587-B22C-C0D28B45C319%7D&amp;FieldNames=%7BE3174201-325E-4362-AF41-A70A6A95716C%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=9"
-              s:ph="/headless-main/container-3"
-              s:ccb="Clear on publish" />
+              uid="{1F791D47-C04C-4A86-B324-A5273933AAF8}"
+              p:after="r[@uid='{F23FB863-3828-4D7E-929F-E2C827A07021}']"
+              s:ds="{CF2D00D0-BB83-465F-ADD6-8F9147ECA7F6}"
+              s:id="{1E6E40D5-9217-4DEF-AC1E-B59DED2F1B99}"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=6"
+              s:ph="headless-main" />
             <r
-              uid="{E6340255-8A5C-498C-828A-41BE2303D3A0}"
-              p:after="r[@uid='{DD864E2B-7270-492A-B4BE-C102E7A7C867}']"
-              s:ds="local:/Data/CTA-Malaga"
-              s:id="{96127B34-218D-4D4E-9203-65B7E24A42E6}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFEDA0026-E7BB-4969-9712-3E4629CB3EFE%7D&amp;Styles&amp;DynamicPlaceholderId=8"
-              s:ph="/headless-main/container-3"
-              s:ccb="Clear on publish" />
-            <r
-              uid="{5B4B3EBE-D860-4F96-A273-7115ADE37058}"
-              p:after="r[@uid='{E6340255-8A5C-498C-828A-41BE2303D3A0}']"
-              s:ds="local:/Data/CTA"
-              s:id="{96127B34-218D-4D4E-9203-65B7E24A42E6}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BFEDA0026-E7BB-4969-9712-3E4629CB3EFE%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;CSSStyles&amp;DynamicPlaceholderId=13"
-              s:ph="/headless-main/container-3" />
-            <r
-              uid="{1CA790DC-0D14-4E5D-BB4F-FBDB024933C5}"
-              p:after="r[@uid='{5B4B3EBE-D860-4F96-A273-7115ADE37058}']"
+              uid="{90181DF4-7D02-4ED5-B5A7-CDBB3BAE0139}"
+              p:after="*[1=2]"
               s:ds="local:/Data/Hero leave feedback"
               s:id="{1980CE42-9455-48E5-B4D0-DDB59C9B28D4}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BAC36768D-1DCE-40EF-BB0F-E6C10EC14522%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=5"
-              s:ph="headless-main" />
-            <r
-              uid="{F23FB863-3828-4D7E-929F-E2C827A07021}"
-              p:after="*[1=2]"
-              s:id="{01BB6244-4E0F-4A9B-9352-1F2C64982655}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;BackgroundImage&amp;Styles=%7B51488297-F4D0-40ED-9D8B-9689BD64D9B2%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;DynamicPlaceholderId=3"
+              s:par="GridParameters&amp;FieldNames&amp;Styles&amp;CSSStyles&amp;DynamicPlaceholderId=7"
               s:ph="headless-main" />
           </d>
         </r>
@@ -181,7 +101,7 @@ Languages:
       Value: 20230119T075727Z
     - ID: "26c47756-a47c-4234-89af-d4660ece7ca4"
       Hint: OgDescription
-      Value: Join us at SUGCON Europe 2023, the premier European conference for Sitecore professionals. Learn from experts, network with peers, and explore the latest in Sitecore technology.
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque odio lectus, pharetra ut condimentum id, tincidunt vitae lorem. Integer placerat nulla sed sagittis viverra. Fusce erat tellus, dignissim nec erat eget, luctus tempus mi. Sed at tortor a enim convallis fermentum. Maecenas sagittis felis sed tellus dapibus, lobortis commodo odio auctor. 
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Home
@@ -198,36 +118,36 @@ Languages:
       Value: 
     - ID: "68d3b246-7b9a-41a7-a2c1-4940ecf0d394"
       Hint: OgTitle
-      Value: SUGCON Europe 2023 | The European Sitecore User Group Conference
+      Value: Sag Demo
     - ID: "74f7afe1-a0e2-4a1d-8ba9-e52666806c9f"
       Hint: OgImage
       Value: |
-        <image mediaid="{514E9CC6-AF44-4F32-A5E2-7F3A30E8FED9}" alt="Sugcon Europe" height="" width="" hspace="" vspace="" />
+        <image mediaid="{517B8878-834E-410B-9A66-0ACD20E2B464}" />
     - ID: "79f9d33c-f64e-49e7-b80a-9b26e43a409e"
       Hint: MetaKeywords
-      Value: SUGCON, Europe, Sitecore, User Group, Conference, Technology, Web Development, Digital Experience, CMS
+      Value: Sag Demo
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c29817e9-f183-4f59-9e63-9604962217b5"
+      Value: "7641c677-b3f6-4757-aab6-509d4c3e4b76"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
     - ID: "afb023d3-4d65-4023-bd85-5f7383e32a08"
       Hint: MetaDescription
-      Value: Join us at SUGCON Europe 2023, the premier European conference for Sitecore professionals. Learn from experts, network with peers, and explore the latest in Sitecore technology.
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
       Hint: Title
       Value: Home
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\1ISa5gYrpM
+        sitecore\Anonymous
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230119T075727Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T212938Z
+      Value: 20240119T124223Z
     - ID: "ea87c3c6-eecc-48cb-8ecc-166e68091857"
       Hint: MetaCustomAttributes
       Value: "google-site-verification=3bCfwhf5EuEEFO1Qr_qJSKMGvnjNZ-59gyWJMKZTr24"

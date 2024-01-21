@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{F41BB931-8C51-433F-9686-9EF5C541C579}" />
+    <image mediaid="{9103F37C-BD18-4A1E-9516-7B2AD316ED99}" />
 Languages:
 - Language: en
   Versions:
@@ -73,14 +73,14 @@ Languages:
         sitecore\xmc-e2e-admin@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "91d30f39-aa76-4119-bf17-64d2c271ecd6"
+      Value: "4f828ceb-3af1-44a3-8e93-42667305f94e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\a.vershalovich@brimit.com
+        sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230403T134258Z
+      Value: 20240119T124223Z
   - Version: 2
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -139,14 +139,14 @@ Languages:
         sitecore\lfSOQMR9mw
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "80166e6a-4225-4b01-b187-66ce19ef0427"
+      Value: "367a8d9e-a27f-4bf6-bdc1-5ad933ba4563"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\1ISa5gYrpM
+        sitecore\7WsvGKpGn8
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230406T094351Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230522T012004Z
+      Value: 20240119T123618Z

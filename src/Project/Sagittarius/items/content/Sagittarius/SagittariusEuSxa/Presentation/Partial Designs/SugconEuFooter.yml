@@ -7,6 +7,10 @@ SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
   Value: sugconeufooter
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F776385D-07FC-4FBB-BCA6-C66BB712C5BD}" />
 Languages:
 - Language: en
   Versions:
@@ -43,11 +47,11 @@ Languages:
         sitecore\xmc-e2e-admin@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5c1665d3-25ee-4545-9e92-a5e6169b75d3"
+      Value: "d0cef922-f528-4aed-aaf5-e350c22f176a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rics@sitecore.net
+        sitecore\7WsvGKpGn8
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220706T174231Z
+      Value: 20240119T123606Z

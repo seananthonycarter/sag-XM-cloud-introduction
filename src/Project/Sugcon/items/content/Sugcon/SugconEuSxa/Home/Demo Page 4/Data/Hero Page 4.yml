@@ -1,0 +1,45 @@
+﻿---
+ID: "9bc6ae0e-3c19-4993-a1a2-424ee5f07d32"
+Parent: "f2d77e16-9da5-4671-831f-c121f0bdc7e7"
+Template: "a9668aad-7e76-49a5-978a-bff6bf8a8a6f"
+Path: /sitecore/content/Sugcon/SugconEuSxa/Home/Demo Page 4/Data/Hero Page 4
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220607T175752Z
+    - ID: "5d11b89b-88a9-4fbd-9da9-9c1c3882b46a"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{2873B071-2360-438D-833B-B73AFF7EBAE3}" />
+    - ID: "76951572-38f3-442a-aab8-41c02e6a2bdc"
+      Hint: Description
+      Value: |
+        <p>This is text for page 4 and <a href="~/link.aspx?_id=3B9338280564496EB9CE5C1811955533&amp;_z=z">link</a>&nbsp;to page 2.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae249c69-1ba8-4a4a-ab45-3f581e7ff909"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\HXjuRYo3SA
+    - ID: "c1413fde-0dd2-4fc9-842d-5ccc7c753564"
+      Hint: BackgroundImage
+      Value: |
+        <image mediaid="{D515D584-09F5-45E5-9917-DECAD21366DC}" alt="x" height="" width="" hspace="" vspace="" />
+    - ID: "d08fa491-162f-44ad-85c0-af9269b9195c"
+      Hint: Text
+      Value: This is page 4
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230819T202613Z
+    - ID: "db8d95de-6511-487f-acc0-31f25fa76e52"
+      Hint: Label
+      Value: THIS IS LABEL

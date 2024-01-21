@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{E5CF5971-DB81-4706-96BF-DFCCE57565F5}" />
+    <image mediaid="{07803048-58EE-46D5-8B3E-D4B50B64C25D}" />
 Languages:
 - Language: en
   Versions:
@@ -115,17 +115,17 @@ Languages:
       Value: Sponsors
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ea0aa9e-04fb-432b-ac82-cd92c1dbe759"
+      Value: "03616d9d-0c89-4288-a8ac-33c6a9970a60"
     - ID: "ba1885c7-230a-493c-a75a-9caa5e8e4d3f"
       Hint: Title
       Value: Sponsors
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sebastian.winter@sitecore.com
+        sitecore\7WsvGKpGn8
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20221206T105121Z
+      Value: 20240119T123606Z
   - Version: 2
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -820,7 +820,7 @@ Languages:
       Value: SUGCON, Europe, Sitecore, User Group, Conference, Sponsors, Companies, Organizations, Recognition, Exposure, Brand, Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "38bfa479-12e9-4828-98af-6c8697a117cc"
+      Value: "9b78a05c-ab80-4310-a8e2-9be38688d85b"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
@@ -836,13 +836,13 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\rea@sitecore.net
+        sitecore\7WsvGKpGn8
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230301T212538Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230303T001617Z
+      Value: 20240119T123616Z
   - Version: 7
     Fields:
     - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
@@ -975,7 +975,7 @@ Languages:
       Value: SUGCON, Europe, Sitecore, User Group, Conference, Sponsors, Companies, Organizations, Recognition, Exposure, Brand, Services
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d6f715c7-1f5c-4c96-9c5c-74de4775223b"
+      Value: "2771d2ad-7333-4801-93e4-da3eba6dbc57"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
@@ -991,10 +991,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\7WsvGKpGn8
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230303T044254Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T213835Z
+      Value: 20240119T123557Z

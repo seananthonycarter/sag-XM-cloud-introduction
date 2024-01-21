@@ -7,6 +7,10 @@ SharedFields:
 - ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
   Hint: Signature
   Value: sugconeuheader
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{869F5426-7178-4F40-8350-543F9AD2DE8B}" />
 Languages:
 - Language: en
   Versions:
@@ -146,14 +150,14 @@ Languages:
         sitecore\lfSOQMR9mw
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "77af59d6-6935-4a40-8016-9865511ffe28"
+      Value: "4b855ac4-b2c4-460d-a97c-438412ddd00d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\1ISa5gYrpM
+        sitecore\Anonymous
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230406T094351Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T212938Z
+      Value: 20240119T124223Z

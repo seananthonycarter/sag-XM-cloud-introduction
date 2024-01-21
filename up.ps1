@@ -16,12 +16,50 @@ Param (
     [switch]$SkipOpen
 )
 
+#remove unused networks
+docker network prune
+
+$ErrorActionPreference = "Stop";
+
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+# Ensure windows container engine is turned on
+Start-Process -Wait -NoNewWindow cmd -ArgumentList /c, "DockerCli.exe -SwitchWindowsEngine" -WorkingDirectory "C:\Program Files\Docker\Docker\"
+
+# Kill IIS if it is running
+try { IISRESET /STOP }
+catch { Write-Host "IISReset failed or IIS not installed" -ForegroundColor Yellow }
+
+# Check port numbers
+function Test-SitecorePorts {
+    param (
+        [string[]]$portnumbers
+    )
+
+    foreach ($portnumber in $portnumbers) {
+        $result = test-netconnection -computername 127.0.0.1 -port $portnumber -ErrorAction SilentlyContinue -WarningAction SilentlyContinue
+        if($result.TcpTestSucceeded)
+        {
+            Write-Error "Port $portnumber is in use and should be available for Sitecore on docker."
+        }
+        else
+        {
+            Write-Host "Port $portnumber available..." -ForegroundColor Green
+        }
+    }
+}
+
+Test-SitecorePorts 443, 8079, 14430, 8081, 8984, 8983
+
+
+
 $ErrorActionPreference = "Stop";
 
 $envContent = Get-Content .env -Encoding UTF8
 $xmCloudHost = $envContent | Where-Object { $_ -imatch "^CM_HOST=.+" }
 $mvpHost = $envContent | Where-Object { $_ -imatch "^MVP_RENDERING_HOST=.+" }
 $sugconeuHost = $envContent | Where-Object { $_ -imatch "^SUGCON_EU_HOST=.+" }
+$sagittariuseuHost = $envContent | Where-Object { $_ -imatch "^SAGITTARIUS_EU_HOST=.+" }
 $sugconanzHost = $envContent | Where-Object { $_ -imatch "^SUGCON_ANZ_HOST=.+" }
 $sugconindiaHost = $envContent | Where-Object { $_ -imatch "^SUGCON_INDIA_HOST=.+" }
 $sitecoreDockerRegistry = $envContent | Where-Object { $_ -imatch "^SITECORE_DOCKER_REGISTRY=.+" }
@@ -30,6 +68,7 @@ $sitecoreVersion = $envContent | Where-Object { $_ -imatch "^SITECORE_VERSION=.+
 $xmCloudHost = $xmCloudHost.Split("=")[1]
 $mvpHost = $mvpHost.Split("=")[1]
 $sugconeuHost = $sugconeuHost.Split("=")[1]
+$sagittariuseuHost = $sagittariuseuHost.Split("=")[1]
 $sugconanzHost = $sugconanzHost.Split("=")[1]
 $sugconindiaHost = $sugconindiaHost.Split("=")[1]
 $sitecoreDockerRegistry = $sitecoreDockerRegistry.Split("=")[1]
@@ -81,6 +120,7 @@ if ($UseEdge) {
     Write-Host "Opening site..." -ForegroundColor Green
     Start-Process https://$mvpHost
     Start-Process https://$sugconeuHost
+    Start-Process https://$sagittariuseuHost
     Start-Process https://$sugconanzHost    
 }
 else {
@@ -148,9 +188,6 @@ else {
     if (-not $SkipOpen) {
         Write-Host "Opening site..." -ForegroundColor Green
         Start-Process https://$xmCloudHost/sitecore/
-        Start-Process https://$mvpHost
-        Start-Process https://$sugconeuHost
-        Start-Process https://$sugconanzHost
-        Start-Process https://$sugconindiaHost
+        Start-Process https://$sagittariuseuHost
     }
 }

@@ -7,6 +7,10 @@ SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
   Value: "{2A032AD3-789E-4C0F-8D9B-750F71F926DC}|{0308664F-FCF1-4083-8091-BBE81E7CFB48}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{77514E04-149B-4BFF-90A7-2809458D3679}" />
 Languages:
 - Language: en
   Versions:

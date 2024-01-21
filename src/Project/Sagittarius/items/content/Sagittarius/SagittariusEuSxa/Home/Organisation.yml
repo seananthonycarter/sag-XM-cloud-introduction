@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{8E00F509-E255-4AA6-824E-6A9DF297A64C}" />
+    <image mediaid="{4F0FFA3F-BE89-4F68-A5BD-843C3DE35140}" />
 Languages:
 - Language: en
   Versions:
@@ -116,7 +116,7 @@ Languages:
       Value: SUGCON, Europe, Sitecore, User Group, Conference, Organization Team, Dedicated, Experienced, Passion, Commitment, Successful
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6c326752-3d65-474a-ac63-ec2e5bd791ab"
+      Value: "d3f42096-cbee-49f5-b475-14c7e1af6302"
     - ID: "924cb302-5abd-4e49-941f-18626daed08d"
       Hint: OgType
       Value: website
@@ -129,10 +129,10 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Anonymous
+        sitecore\7WsvGKpGn8
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20230201T214819Z
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230501T213815Z
+      Value: 20240119T123659Z
